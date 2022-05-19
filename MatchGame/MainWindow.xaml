@@ -5,8 +5,55 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MatchGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Find all of the matching animals" Height="450" Width="399" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36">
     <Grid>
-   
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="0" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" 
+                   Text="?" VerticalAlignment="Center"/>
+
     </Grid>
 </Window>
